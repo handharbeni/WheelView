@@ -7,10 +7,10 @@ group='io.github.handharbeni'
 ext {
     // Provide your own coordinates here
     PUBLISH_GROUP_ID = 'io.github.handharbeni'
-    PUBLISH_VERSION = '1.0.0'
-    PUBLISH_ARTIFACT_ID = 'photoview-module'
-    PUBLISH_DESCRIPTION = 'PhotoView Android'
-    PUBLISH_URL = 'https://github.com/handharbeni/PhotoView'
+    PUBLISH_VERSION = '1.0.1'
+    PUBLISH_ARTIFACT_ID = 'wheelview-module'
+    PUBLISH_DESCRIPTION = 'WHeelView Android'
+    PUBLISH_URL = 'https://github.com/handharbeni/WheelView'
     PUBLISH_LICENSE_NAME = 'Apache License 2.0'
     PUBLISH_LICENSE_URL =
             'http://www.apache.org/licenses/LICENSE-2.0.txt'
@@ -18,11 +18,11 @@ ext {
     PUBLISH_DEVELOPER_NAME = 'Muhammad Handharbeni'
     PUBLISH_DEVELOPER_EMAIL = 'mhandharbeni@gmail.com'
     PUBLISH_SCM_CONNECTION =
-            'scm:git:github.com/handharbeni/PhotoView.git'
+            'scm:git:github.com/handharbeni/WheelView.git'
     PUBLISH_SCM_DEVELOPER_CONNECTION =
-            'scm:git:ssh://github.com/handharbeni/PhotoView.git'
+            'scm:git:ssh://github.com/handharbeni/WheelView.git'
     PUBLISH_SCM_URL =
-            'https://github.com/handharbeni/PhotoView/tree/master'
+            'https://github.com/handharbeni/WheelView/tree/master'
 }
 
 apply from: "${rootProject.projectDir}/scripts/publish-module.gradle"
